@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Training outputs and large generated files
+phgnet_efficientnet_v8_885/
+outputs/
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.npz
+*.npy
+*.csv
+
+# Dataset files (do not upload large/private datasets to GitHub)
+data/*
+!data/README.md
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
