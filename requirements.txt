@@ -1,0 +1,11 @@
+# Install a PyTorch + torchvision build separately, matching your OS/CUDA setup.
+# Official selector: https://pytorch.org/get-started/locally/
+
+numpy
+pandas
+Pillow
+scipy
+scikit-learn
+matplotlib
+timm
+gudhi
